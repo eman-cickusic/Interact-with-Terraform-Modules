@@ -1,0 +1,10 @@
+variable "project_id" {
+  description = "The project ID to host the network in"
+  # Replace with your project ID when using this code
+  default     = "your-project-id"
+}
+
+variable "network_name" {
+  description = "The name of the VPC network being created"
+  default     = "example-vpc"
+}
